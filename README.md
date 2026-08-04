@@ -9,7 +9,7 @@
 
 ## Installation
 
-Just [download](#Download) the Library and place him in the ReplicatedStorage
+Just [download](#Download) the Library and place him in any service that the client can access, for example the ReplicatedStorage
 
 ## How to use
 
