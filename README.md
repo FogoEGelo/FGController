@@ -132,5 +132,3 @@ Read the start of the `AbilityCreate` or the start of the `FGController` to chec
 This module is updated frequently, if you notice an error send me a message, or `create a comment here`
 
 Theses modules are recents, then probably have errors even i had fixed a lot
-
-## The actual Version is V1.4, updated at 08/04
