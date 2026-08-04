@@ -98,7 +98,19 @@ While `AbilityCreate` automates this, here is the API for the underlying engine 
 | Method | Parameters | Returns | Description |
 | :--- | :--- | :--- | :--- |
 | **`.new()`** | `Object: BasePart/GuiObject`<br>`FPS: number?` | `self` | Creates a new controller instance tied to a specific object. |
-| **`:SetAnimation()`** | `AnimationFolder: StringValue`<br>`Config: Config?` | `self` | Binds the animation folder to the object. Accepts an optional configuration table to enable/disable specific properties, one of this properties is the `Localpos`, the default is true for this, if true this will change the worldpos from the Moon Animator to a local position designed by the actual CFrame of the part, if false this will uses the world CFrame from the Moon Animator. |
+| **`:SetAnimation()`** | `AnimationFolder: StringValue`<br>`Config: Config?` | `self` | Binds the animation folder to the object. Accepts an optional configuration table to enable/disable specific properties, one of this properties is the `Localpos`, the default is true for this, if true this will change the world position from the Moon Animator to a local position designed by the actual CFrame of the part, if false this will uses the world CFrame from the Moon Animator. |
 | **`:Play()`** | `Loop: boolean`<br>`Objs: {Instance}?` | `self` | Starts the animation in a parallel thread (`task.spawn`), utilizing strict `os.clock()` calculations for perfect frame syncing. |
 | **`:CallBack()`** | `CallBack: () -> ()` | `self` | Connects a function to fire exactly when the animation finishes naturally or is stopped. |
 | **`:Stop()`** | None | `self` | Cancels all active `TweenService` tracks for this specific object and halts the loop. |
+
+## License
+**License (VFX-DL) Version 1.0**
+
+Read the start of the `AbilityCreate` or the start of the `FGController` to check the terms of uses.
+
+## Updates
+This module is updated frequently, if you notice an error send me a message, or `create a comment here`
+
+Theses modules are recents, then probably have errors even i had fixed a lot
+
+# The actual Version is V1.4, updated at 08/04
