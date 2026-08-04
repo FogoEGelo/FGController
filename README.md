@@ -4,7 +4,7 @@
 </picture>
 
 <div align="center">
-<a href="#download"><img alt="" title="Download" src="Button.png"/></a>
+<a href="https://create.roblox.com/store/asset/72718229058068/FGController"><img alt="" title="Download" src="Button.png"/></a>
 <div align="left">
 
 # FGController
