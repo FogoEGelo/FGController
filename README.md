@@ -8,6 +8,8 @@
 <a href="https://discordapp.com/users/714085730430877716"><img alt="" title="Discord" src="Button2.png"/></a>
 <div align="left">
 
+# To buy the license to use is $20, send me a message to buy.
+
 # FGController
 > A powerful Luau library that easily and conveniently brings your Moon Animator plugin animations to life in Roblox.
 
