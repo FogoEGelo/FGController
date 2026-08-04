@@ -20,7 +20,7 @@ This library allows you to seamlessly synchronize and play back:
 
 ## Installation
 
-[Download](#Download) the library and place it in any service accessible by the client. The recommended location is `ReplicatedStorage`.
+[Download](https://create.roblox.com/store/asset/72718229058068/FGController) the library and place it in any service accessible by the client. The recommended location is `ReplicatedStorage`.
 
 ---
 
