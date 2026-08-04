@@ -1,5 +1,4 @@
-# FGController
-> <<img src="icon.png" align="right"/>
+# FGController [![FGController](icon.png)
 > A Luau library that can bring your Moon Animator plugin animations to life easily and conveniently. Including:
 
 - **VFXs/Meshs** - And play the VFXs/MeshParts animations using the [VFX Forge](#VFX-Forge)
