@@ -121,9 +121,6 @@ While `AbilityCreate` automates this, here is the API for the underlying engine 
 | **`:CallBack()`** | `CallBack: () -> ()` | `self` | Connects a function to fire exactly when the animation finishes naturally or is stopped. |
 | **`:Stop()`** | None | `self` | Cancels all active `TweenService` tracks for this specific object and halts the loop. |
 
-## Limitations
-
-
 ## License
 **License (VFX-DL) Version 1.0**
 
