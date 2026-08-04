@@ -98,7 +98,7 @@ While `AbilityCreate` automates this, here is the API for the underlying engine 
 | Method | Parameters | Returns | Description |
 | :--- | :--- | :--- | :--- |
 | **`.new()`** | `Object: BasePart/GuiObject`<br>`FPS: number?` | `self` | Creates a new controller instance tied to a specific object. |
-| **`:SetAnimation()`** | `AnimationFolder: StringValue`<br>`Config: Config?` | `self` | Binds the animation folder to the object. Accepts an optional configuration table to enable/disable specific properties, one of this properties is the **Localpos**, the default is true for this, if true this will change the worldpos from the Moon Animator to a localpos designed by the actual CFrame of the part, if false this will uses the worldpos from the Moon Animator. |
+| **`:SetAnimation()`** | `AnimationFolder: StringValue`<br>`Config: Config?` | `self` | Binds the animation folder to the object. Accepts an optional configuration table to enable/disable specific properties, one of this properties is the `Localpos`, the default is true for this, if true this will change the worldpos from the Moon Animator to a local position designed by the actual CFrame of the part, if false this will uses the world CFrame from the Moon Animator. |
 | **`:Play()`** | `Loop: boolean`<br>`Objs: {Instance}?` | `self` | Starts the animation in a parallel thread (`task.spawn`), utilizing strict `os.clock()` calculations for perfect frame syncing. |
 | **`:CallBack()`** | `CallBack: () -> ()` | `self` | Connects a function to fire exactly when the animation finishes naturally or is stopped. |
 | **`:Stop()`** | None | `self` | Cancels all active `TweenService` tracks for this specific object and halts the loop. |
