@@ -3,7 +3,9 @@
 <img alt="" title="FGController" src="icon.png" width="95%"/>
 </picture>
 
+<div align="center">
 <a href="#download"><img alt="" title="Download" src="Button.png"/></a>
+<div align="left">
 
 # FGController
 > A powerful Luau library that easily and conveniently brings your Moon Animator plugin animations to life in Roblox.
