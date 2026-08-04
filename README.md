@@ -24,6 +24,15 @@ This library allows you to seamlessly synchronize and play back:
 
 ---
 
+## Some observations
+- All the Meshes/Parts have to be **anchored to play correctly** and it's recomended remove the CanCollide too.
+- **Don't name any thing with numbers**, for example a MeshPart named with "1", because the Moon Animator don't save this correctly.
+- **This module had to be used in client** to use the camera/UI correctly.
+- **For now** the module just support the `shared.vfx.emit` in events with code.
+- The codes in events **have to be in Code Begin**, not Code End, **for now.**
+
+---
+
 ## Core Structure
 
 The library includes two main ModuleScripts:
@@ -111,6 +120,9 @@ While `AbilityCreate` automates this, here is the API for the underlying engine 
 | **`:CallBack()`** | `CallBack: () -> ()` | `self` | Connects a function to fire exactly when the animation finishes naturally or is stopped. |
 | **`:Stop()`** | None | `self` | Cancels all active `TweenService` tracks for this specific object and halts the loop. |
 
+## Limitations
+
+
 ## License
 **License (VFX-DL) Version 1.0**
 
@@ -121,4 +133,4 @@ This module is updated frequently, if you notice an error send me a message, or 
 
 Theses modules are recents, then probably have errors even i had fixed a lot
 
-# The actual Version is V1.4, updated at 08/04
+## The actual Version is V1.4, updated at 08/04
