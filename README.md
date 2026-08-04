@@ -1,6 +1,12 @@
+<div align="center">
+<picture>
+<img alt="" title="FGController" src="icon.png" width="95%"/>
+</picture>
+
+<a href="#download"><img alt="" title="Download" src="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/repository/badges/download.svg"/></a>
+
 # FGController
 > A powerful Luau library that easily and conveniently brings your Moon Animator plugin animations to life in Roblox.
-> <img src="icon.png" align="right" width="200"/>
 
 This library allows you to seamlessly synchronize and play back:
 - **VFX & Meshes** - Play VFX/MeshPart animations perfectly timed using [VFX Forge](https://devforum.roblox.com/t/plugin-vfx-forge-an-advanced-custom-vfx-system/3867553).
