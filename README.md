@@ -5,6 +5,7 @@
 
 <div align="center">
 <a href="https://create.roblox.com/store/asset/72718229058068/FGController"><img alt="" title="Download" src="Button.png"/></a>
+<a href="https://discordapp.com/users/714085730430877716"><img alt="" title="Discord" src="Button2.png"/></a>
 <div align="left">
 
 # FGController
