@@ -11,8 +11,6 @@
 # FGController
 > A powerful Luau library that easily and conveniently brings your Moon Animator plugin animations to life in Roblox.
 
-To buy the license to use is $20, send me a message to buy.
-
 This library allows you to seamlessly synchronize and play back:
 - **VFX & Meshes** - Play VFX/MeshPart animations perfectly timed using [VFX Forge](https://devforum.roblox.com/t/plugin-vfx-forge-an-advanced-custom-vfx-system/3867553).
 - **BasePart Properties** - Animate `CFrame`, `Color`, `Size`, and `Transparency` dynamically.
@@ -135,3 +133,6 @@ Read the start of the `AbilityCreate` or the start of the `FGController` to chec
 This module is updated frequently, if you notice an error send me a message, or `create a comment here`
 
 Theses modules are recents, then probably have errors even i had fixed a lot
+
+# Price
+To buy the license to use is $20, send me a message to buy.
