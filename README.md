@@ -20,17 +20,45 @@ The library includes 2 Modules Sripts:
 
 You do not need to use FGController directly; instead, use AbilityCreator, as it will assist you in any situation.
 
-### Taking the Objs table
+### Adding your animation from Moon Animator
+Create a folder in the ReplicatedStorage with the name "Animations".
+
+In the Moon Animator you will save your animation, after that the save will appear in the ServerStorage -> MoonAnimator2Saves,
+you will **copy and paste** the save to the folder who you created.
+
+This save you pasted into the folder is the **AnimationFolder** remember this; and the path to him is:
+```lua
+RS.Animations:WaitForChild("AnimationFolderName") -- Change the AnimationFolderName to your save name.
+```
+
+### Taking the *Objs table*
+The code which this returns is usefull to get the order of the objs to create the Objs Table if you want to play the animation
+in another part but with the same animation, what else just copy and paste the code which this returns.
+
 Just copy and paste this in the command bar or in a localscript and run.
 
 ```lua
 local RS = game:GetService("ReplicatedStorage")
 
-local ModelName = "ModelName" -- This is the name of the variable that's you defined.
-local AnimationsFolder = RS.Animations:WaitForChild("AnimationName") -- Rename the AnimationName to your animation name on the Animations folder.
+local ModelName = "ModelName" -- This is the name of the variable.
+local AnimationsFolder = nil -- Change this to your AnimationFolder path.
 
 local AbilityCreator = require(RS.Modules:WaitForChild("AbilityCreator"))
 AbilityCreator.PrintSetupTemplate(AnimationsFolder, ModelName, true) -- This will print in your output a message with the code to copy and paste.
+```
+
+### Playing the animation
+In a localscript you will copy and paste this:
+
+```lua
+local RS = game:GetService("ReplicatedStorage")
+
+local AnimationsFolder = nil -- Change this to your AnimationFolder path.
+
+local AbilityCreator = require(RS.Modules:WaitForChild("AbilityCreator"))
+local Objs = {} -- Change this to the code who you copy from the last code.
+
+AbilityCreator.Create(AnimationsFolder, Objs)
 ```
 
 ## API
