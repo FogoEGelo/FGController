@@ -109,7 +109,7 @@ This is the primary module you will use to trigger animations and handle VFX log
 | **`:Stop()`** | None | `self` | Instantly cancels all running tweens, stops the time loops, clears memory, and hides the UI elements. |
 | **`.PrintSetupTemplate()`** | `AnimationsFolder: StringValue`<br>`ModelName: string`<br>`wait: boolean?` | `nil` | Prints a formatted Lua table to the Output window. Set `wait` to `true` to use `:WaitForChild()`, or `false` for `:FindFirstChild()`. |
 | **`.getObjsOrder()`** | `AnimationsFolder: StringValue` | `{string}` | Returns a sequentially ordered table of string names representing the exact object order required by the animation file. |
-| **`PlayCharAnimation`** | `Animation: Animation` | `Char: Model` | Returns a animation track to play your player animation more easily, to play it's just use `:Play().` |
+| **`.PlayCharAnimation()`** | `Animation: Animation` | `Char: Model` | Returns a animation track to play your player animation more easily, to play it's just use `:Play().` |
 
 ### `FGController` (Internal Engine)
 While `AbilityCreate` automates this, here is the API for the underlying engine in case you need to build custom, low-level implementations.
