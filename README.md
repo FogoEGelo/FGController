@@ -48,7 +48,7 @@
   <li><strong>This module must be used on the client</strong> to handle the camera and UI properly.</li>
   <li><strong>For now</strong>, the module only supports <code>shared.vfx.emit</code> in events with code.</li>
   <li>The codes in events <strong>must be in Code Begin</strong>, not Code End, for the time being.</li>
-  <li>To the <strong>local camera</strong> work correctly you have to put the principal part/character of the animation in the position (0, 0, 0) and animate the camera relative to her, after this, send the char/part CFrame to the RelativeA, the zero direction of the camera is equal to the look vector of the character/part.</li>li
+  <li>To the <strong>local camera</strong> work correctly you have to put the principal part/character of the animation in the position and orientation (0, 0, 0) and animate the camera relative to her, after this, send the char/part CFrame to the RelativeA, the zero direction of the camera is equal to the look vector of the character/part.</li>li
 </ul>
 
 <hr />
