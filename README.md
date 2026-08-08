@@ -217,8 +217,7 @@ local myAbility = AbilityCreate.Create(AnimationsFolder, Objs)
 <h2>Price &amp; License</h2>
 <p><strong>License (VFX-DL) Version 1.0</strong></p>
 <p>To buy the license to use this module, the price is <strong>$20/R$100</strong>. Please send me a message on Discord to purchase it.</p>
-<p>You needed to have a GitHub account to get permission to download.. </p>[
-<p><em>Read the start of the <code>AbilityCreate</code> or <code>FGController</code> modules to check the full terms of use.</em></p>
+<p>You needed to have a GitHub account to get permission to download.. </p>
 
 <h2>Updates</h2>
 <p>This module is updated frequently. If you notice an error, feel free to send me a message or create an issue/comment on the repository! Because these modules are recent, there might be occasional bugs, but I am actively fixing them.</p>
