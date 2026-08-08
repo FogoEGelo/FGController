@@ -17,6 +17,10 @@
   <p>A powerful Luau library that easily and conveniently brings your Moon Animator plugin animations to life in Roblox.</p>
 </blockquote>
 
+  <img width="400" height="225" alt="Image" src="https://github.com/user-attachments/assets/ade769e7-ec7e-40d1-ba9c-65f3785e7c7d" />
+
+  ---
+
 <p>This library allows you to seamlessly synchronize and play back:</p>
 <ul>
   <li><strong>VFX & Meshes</strong> - Play VFX/MeshPart animations perfectly timed using <a href="https://devforum.roblox.com/t/plugin-vfx-forge-an-advanced-custom-vfx-system/3867553">VFX Forge</a>.</li>
