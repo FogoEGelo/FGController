@@ -133,7 +133,7 @@ local myAbility = AbilityCreate.Create(AnimationsFolder, Objs)
   <tbody>
     <tr>
       <td><strong><code>.Create()</code></strong></td>
-      <td><code>AnimationsFolder: StringValue</code><br><code>Objs: {Instance}</code><br><code>FPS: number?</code><br><code>RelativeA: CFrame?</code><br><code>CameraOrigin: (CFrame|Vector3)?</code><br><code>CameraTarget: BasePart?</code></td>
+      <td><code>AnimationsFolder: StringValue</code><br><code>Objs: {Instance}</code><br><code>FPS: number?</code><br><code>RelativeA: CFrame?</code><br><code>CameraTarget: BasePart?</code><br><code>CameraOrigin: (CFrame|Vector3)?</code></td>
       <td><code>self</code></td>
       <td>Initializes and immediately plays the animation sequence. Binds UIs, VFXs, and Camera automatically. Default FPS is <code>60</code>.</td>
     </tr>
