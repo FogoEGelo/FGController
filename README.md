@@ -31,7 +31,7 @@
   <li><strong>VFX & Meshes</strong> - Play VFX/MeshPart animations perfectly timed using <a href="https://devforum.roblox.com/t/plugin-vfx-forge-an-advanced-custom-vfx-system/3867553">VFX Forge</a>.</li>
   <li><strong>BasePart Properties</strong> - Animate <code>CFrame</code>, <code>Color</code>, <code>Size</code>, and <code>Transparency</code> dynamically.</li>
   <li><strong>Screen UI Elements</strong> - Automatically manages and animates <code>ScreenGui</code> elements like Subtitles (<code>TextLabel</code>), Letterboxes (<code>Frame</code>), or Vignettes (<code>ImageLabel</code>).</li>
-  <li><strong>Camera Movement</strong> - Create synchronized cutscenes effortlessly with advanced <code>CameraOrigin</code> and <code>CameraTarget</code> tracking.</li>
+  <li><strong>Camera Movement</strong> - Create synchronized cutscenes effortlessly with advanced <code>RelativeA</code> and <code>CameraTarget</code> tracking.</li>
 </ul>
 
 <hr />
