@@ -28,7 +28,7 @@
 <hr />
 
 <h2>Installation</h2>
-<p><a href="https://create.roblox.com/store/asset/72718229058068/FGController">Download</a> the library and place it in any service accessible by the client. The recommended location is <code>ReplicatedStorage</code>.</p>
+<p><a href="https://github.com/FogoEGelo/FGController-System/tree/main">Download</a> the library and place it in any service accessible by the client. The recommended location is <code>ReplicatedStorage</code>.</p>
 
 <hr />
 
