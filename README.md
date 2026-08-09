@@ -15,6 +15,7 @@
 <h1>FGController</h1>
 <blockquote>
   <p>A powerful Luau library that easily and conveniently brings your Moon Animator plugin animations to life in Roblox.</p>
+  <p>This modules is not free, it's custs 20$/R$100</p>
 </blockquote>
 
 <div align="center">
