@@ -23,6 +23,8 @@
   <img width="400" height="225" alt="Image" src="https://github.com/user-attachments/assets/05041d8d-d28f-4f3a-acda-9c2ff08f8efc" />
 
   This modules is not free, it's custs $20/R$100
+
+  Tutorial: https://www.youtube.com/watch?v=AGdijNJ8wA0
   
   ---
 
