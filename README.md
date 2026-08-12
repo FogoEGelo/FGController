@@ -22,9 +22,9 @@
   <img width="400" height="225" alt="Image" src="https://github.com/user-attachments/assets/ade769e7-ec7e-40d1-ba9c-65f3785e7c7d" />
   <img width="400" height="225" alt="Image" src="https://github.com/user-attachments/assets/05041d8d-d28f-4f3a-acda-9c2ff08f8efc" />
 
-  This modules is not free, it's custs $20/R$100, to buy go to my DM
+  This modules is not free, normally it's custs $20/R$100, but with the discount it's $10/R$50, to buy go to my DM
 
-  Tutorial: https://www.youtube.com/watch?v=AGdijNJ8wA0
+  Tutorial/Example`: https://www.youtube.com/watch?v=AGdijNJ8wA0
   
   ---
 
@@ -220,7 +220,7 @@ local myAbility = AbilityCreate.Create(AnimationsFolder, Objs)
 
 <h2>Price &amp; License</h2>
 <p><strong>License (VFX-DL) Version 1.0</strong></p>
-<p>To buy the license to use this module, the price is <strong>$20/R$100</strong>. Please send me a message on Discord to purchase it.</p>
+<p>To buy the license to use this module please send me a message on Discord to purchase it.</p>
 <p>You needed to have a GitHub account to get permission to download. </p>
 
 <h2>Updates</h2>
