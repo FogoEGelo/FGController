@@ -9,7 +9,7 @@
     <img alt="Discord" title="Discord" src="Button2.png"/>
   </a>
 
-  ## Because it's the release of this module we have a **discount of 50%!**
+  ## To celebrate the release we are offering a **discount of 50% for a limited time!**
 </div>
 
 <br />
