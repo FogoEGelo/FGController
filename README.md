@@ -8,6 +8,8 @@
   <a href="https://discordapp.com/users/714085730430877716">
     <img alt="Discord" title="Discord" src="Button2.png"/>
   </a>
+
+  ## Because it's the release of this module we have a **discount of 50%!**
 </div>
 
 <br />
