@@ -5,7 +5,7 @@
   <a href="https://github.com/FogoEGelo/FGController-System/tree/main">
     <img alt="Download" title="Download" src="Button.png"/>
   </a>
-  <a href="https://discordapp.com/users/714085730430877716">
+  <a href="https://discord.gg/8bqztkDA2U">
     <img alt="Discord" title="Discord" src="Button2.png"/>
   </a>
 
