@@ -2,10 +2,10 @@
   <img alt="FGController" title="FGController" src="icon.png" width="95%" />
   <br />
   <br />
-  <a href="[https://github.com/FogoEGelo/FGController-System/tree/main](https://github.com/FogoEGelo/FGController-System/tree/main)">
+  <a href="https://github.com/FogoEGelo/FGController-System/tree/main">
     <img alt="Download" title="Download" src="Button.png"/>
   </a>
-  <a href="[https://discord.gg/8bqztkDA2U](https://discord.gg/8bqztkDA2U)">
+  <a href="https://discord.gg/8bqztkDA2U">
     <img alt="Discord" title="Discord" src="Button2.png"/>
   </a>
 </div>
@@ -16,13 +16,13 @@
 > A powerful, strictly-typed Luau library that easily and conveniently brings your Moon Animator plugin animations to life in Roblox.
 
 <div align="center">
-  <img width="400" height="225" alt="Showcase 1" src="[https://github.com/user-attachments/assets/ade769e7-ec7e-40d1-ba9c-65f3785e7c7d](https://github.com/user-attachments/assets/ade769e7-ec7e-40d1-ba9c-65f3785e7c7d)" />
-  <img width="400" height="225" alt="Showcase 2" src="[https://github.com/user-attachments/assets/05041d8d-d28f-4f3a-acda-9c2ff08f8efc](https://github.com/user-attachments/assets/05041d8d-d28f-4f3a-acda-9c2ff08f8efc)" />
+  <img width="400" height="225" alt="Showcase 1" src="https://github.com/user-attachments/assets/ade769e7-ec7e-40d1-ba9c-65f3785e7c7d" />
+  <img width="400" height="225" alt="Showcase 2" src="https://github.com/user-attachments/assets/05041d8d-d28f-4f3a-acda-9c2ff08f8efc" />
   <br /><br />
   <strong>💎 Premium Module</strong><br />
   This library is a paid asset and costs <strong>$15 USD / R$ 75</strong>.<br />
-  To purchase and get repository access, please send a DM or open a ticket on our <a href="[https://discord.gg/8bqztkDA2U](https://discord.gg/8bqztkDA2U)">Discord</a>.<br />
-  🎥 <a href="[https://www.youtube.com/watch?v=AGdijNJ8wA0](https://www.youtube.com/watch?v=AGdijNJ8wA0)">Watch the Tutorial/Example</a>
+  To purchase and get repository access, please send a DM or open a ticket on our <a href="https://discord.gg/8bqztkDA2U">Discord</a>.<br />
+  🎥 <a href="https://www.youtube.com/watch?v=AGdijNJ8wA0">Watch the Tutorial/Example</a>
 </div>
 
 ---
