@@ -8,8 +8,6 @@
   <a href="https://discord.gg/8bqztkDA2U">
     <img alt="Discord" title="Discord" src="Button2.png"/>
   </a>
-
-  ## To celebrate the release we are offering a **discount of 50% for a limited time!**
 </div>
 
 <br />
@@ -24,7 +22,7 @@
   <img width="400" height="225" alt="Image" src="https://github.com/user-attachments/assets/ade769e7-ec7e-40d1-ba9c-65f3785e7c7d" />
   <img width="400" height="225" alt="Image" src="https://github.com/user-attachments/assets/05041d8d-d28f-4f3a-acda-9c2ff08f8efc" />
 
-  This modules is not free, normally it's custs $20/R$100, **but with the discount it's $10/R$50**, to buy go to my DM
+  This modules is not free, normally it's custs $20/R$100, to buy go to my DM
 
   Tutorial/Example`: https://www.youtube.com/watch?v=AGdijNJ8wA0
   
