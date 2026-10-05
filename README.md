@@ -2,88 +2,84 @@
   <img alt="FGController" title="FGController" src="icon.png" width="95%" />
   <br />
   <br />
-  <a href="https://github.com/FogoEGelo/FGController-System/tree/main">
+  <a href="[https://github.com/FogoEGelo/FGController-System/tree/main](https://github.com/FogoEGelo/FGController-System/tree/main)">
     <img alt="Download" title="Download" src="Button.png"/>
   </a>
-  <a href="https://discord.gg/8bqztkDA2U">
+  <a href="[https://discord.gg/8bqztkDA2U](https://discord.gg/8bqztkDA2U)">
     <img alt="Discord" title="Discord" src="Button2.png"/>
   </a>
 </div>
 
 <br />
 
-<h1>FGController</h1>
-<blockquote>
-  <p>A powerful Luau library that easily and conveniently brings your Moon Animator plugin animations to life in Roblox.</p>
-</blockquote>
+# FGController
+> A powerful, strictly-typed Luau library that easily and conveniently brings your Moon Animator plugin animations to life in Roblox.
 
 <div align="center">
-
-  <img width="400" height="225" alt="Image" src="https://github.com/user-attachments/assets/ade769e7-ec7e-40d1-ba9c-65f3785e7c7d" />
-  <img width="400" height="225" alt="Image" src="https://github.com/user-attachments/assets/05041d8d-d28f-4f3a-acda-9c2ff08f8efc" />
-
-  This modules is not free, normally it's custs $15/R$75, to buy go to my DM
-
-  Tutorial/Example`: https://www.youtube.com/watch?v=AGdijNJ8wA0
-  
-  ---
-
+  <img width="400" height="225" alt="Showcase 1" src="[https://github.com/user-attachments/assets/ade769e7-ec7e-40d1-ba9c-65f3785e7c7d](https://github.com/user-attachments/assets/ade769e7-ec7e-40d1-ba9c-65f3785e7c7d)" />
+  <img width="400" height="225" alt="Showcase 2" src="[https://github.com/user-attachments/assets/05041d8d-d28f-4f3a-acda-9c2ff08f8efc](https://github.com/user-attachments/assets/05041d8d-d28f-4f3a-acda-9c2ff08f8efc)" />
+  <br /><br />
+  <strong>💎 Premium Module</strong><br />
+  This library is a paid asset and costs <strong>$15 USD / R$ 75</strong>.<br />
+  To purchase and get repository access, please send a DM or open a ticket on our <a href="[https://discord.gg/8bqztkDA2U](https://discord.gg/8bqztkDA2U)">Discord</a>.<br />
+  🎥 <a href="[https://www.youtube.com/watch?v=AGdijNJ8wA0](https://www.youtube.com/watch?v=AGdijNJ8wA0)">Watch the Tutorial/Example</a>
 </div>
 
-<p>This library allows you to seamlessly synchronize and play back:</p>
-<ul>
-  <li><strong>VFX & Meshes</strong> - Play VFX/MeshPart animations perfectly timed using <a href="https://devforum.roblox.com/t/plugin-vfx-forge-an-advanced-custom-vfx-system/3867553">VFX Forge</a>.</li>
-  <li><strong>BasePart Properties</strong> - Animate <code>CFrame</code>, <code>Color</code>, <code>Size</code>, and <code>Transparency</code> dynamically.</li>
-  <li><strong>Screen UI Elements</strong> - Automatically manages and animates <code>ScreenGui</code> elements like Subtitles (<code>TextLabel</code>), Letterboxes (<code>Frame</code>), or Vignettes (<code>ImageLabel</code>).</li>
-  <li><strong>Camera Movement</strong> - Create synchronized cutscenes effortlessly with advanced <code>RelativeA</code> and <code>CameraTarget</code> tracking.</li>
-</ul>
+---
 
-<hr />
+## 🌟 Features
 
-<h2>Installation</h2>
-<p><a href="https://github.com/FogoEGelo/FGController-System/tree/main">Download</a> the library and place it in any service accessible by the client. The recommended location is <code>ReplicatedStorage</code>.</p>
+This library allows you to seamlessly synchronize and play back:
+* **VFX & Meshes** - Play VFX/MeshPart animations perfectly timed using [VFX Forge](https://devforum.roblox.com/t/plugin-vfx-forge-an-advanced-custom-vfx-system/3867553).
+* **BasePart Properties** - Animate `CFrame`, `Color`, `Size`, and `Transparency` dynamically.
+* **Screen UI Elements** - Automatically manages and animates `ScreenGui` elements like Subtitles (`TextLabel`), Letterboxes (`Frame`), or Vignettes (`ImageLabel`).
+* **Camera Movement** - Create synchronized cutscenes effortlessly with advanced `RelativeA` and `CameraTarget` tracking.
+* **✨ Custom Commands System** - The engine features a smart Regex reader. You are no longer limited to `shared.vfx.emit()`. You can now trigger custom functions like `playSound()` or `cameraShake()` directly from Moon Animator's event tracks.
+* **🛡️ Bulletproof Engine** - Written in Luau `--!strict` mode with anti-memory leak protections. It safely resets cameras and UI elements *only* if the specific ability used them.
 
-<hr />
+---
 
-<h2>Important Observations</h2>
-<ul>
-  <li>All the Meshes/Parts have to be <strong>anchored to play correctly</strong>, and it is highly recommended to disable <code>CanCollide</code>.</li>
-  <li><strong>Do not name anything with just numbers</strong> (e.g., a MeshPart named "1"), because Moon Animator does not save these correctly.</li>
-  <li><strong>This module must be used on the client</strong> to handle the camera and UI properly.</li>
-  <li><strong>For now</strong>, the module only supports <code>shared.vfx.emit</code> in events with code.</li>
-  <li>The codes in events <strong>must be in Code Begin</strong>, not Code End, for the time being.</li>
-  <li>To the <strong>local camera</strong> work correctly you have to put the principal part/character of the animation in the position and orientation (0, 0, 0) and animate the camera relative to her, after this, send the char/part CFrame to the RelativeA, the zero direction of the camera is equal to the look vector of the character/part.</li>li
-</ul>
+## 📥 Installation
 
-<hr />
+[Download](https://github.com/FogoEGelo/FGController-System/tree/main) the library and place it in any service accessible by the client. The recommended location is `ReplicatedStorage.Modules`.
 
-<h2>Core Structure</h2>
-<p>The library includes two main ModuleScripts:</p>
-<ul>
-  <li><strong><code>FGController</code></strong> - The core engine that calculates time, syncs tweens, and runs the animations.</li>
-  <li><strong><code>AbilityCreate</code></strong> - A user-friendly wrapper that parses your JSON data, sets up the UIs/Cameras automatically, and plays your abilities using <code>FGController</code>.</li>
-</ul>
-<blockquote>
-  <p><strong>Note:</strong> You do not need to interact with <code>FGController</code> directly. <code>AbilityCreate</code> handles all the heavy lifting and is the primary module you should use.</p>
-</blockquote>
+---
 
-<hr />
+## ⚠️ Important Observations
 
-<h2>Quick Start Guide</h2>
+* **Anchor your parts:** All Meshes/Parts have to be anchored to play correctly. It is highly recommended to disable `CanCollide` as well.
+* **Naming Convention:** Do not name any instance with just numbers (e.g., a MeshPart named "1"). Moon Animator fails to save these correctly.
+* **Client-Side Only:** This module must be required and executed on the **Client** (LocalScript) to handle the Workspace Camera and PlayerGui properly.
+* **Event Codes:** Custom codes in Moon Animator events **must be placed in "Code Begin"**, not "Code End".
+* **🎥 Local Camera Setup:** For the camera to animate correctly relative to a player/part:
+  1. In Moon Animator, place the main character/part exactly at position and orientation `(0, 0, 0)`.
+  2. Animate the camera around this `(0, 0, 0)` character.
+  3. In your script, pass the real in-game character's `CFrame` into the `RelativeA` parameter. The module will automatically translate the animation to your character's current world position and facing direction.
 
-<h3>1. Adding your animation from Moon Animator</h3>
-<p>Create a folder inside <code>ReplicatedStorage</code> named <code>Animations</code>.</p>
-<p>When you save your animation in Moon Animator, the save file will appear in <code>ServerStorage -&gt; MoonAnimator2Saves</code>. <strong>Copy and paste</strong> this save file into the <code>Animations</code> folder you just created.</p>
-<p>This save file is your <strong>AnimationFolder</strong>. You can reference it in your scripts like this:</p>
+---
 
-```luau
-local RS = game:GetService("ReplicatedStorage")
-local animationFolder = RS.Animations:WaitForChild("YourAnimationSaveName")
-```
+## 🏗️ Core Structure
 
-<h3>2. Generating the Setup Template (The <code>Objs</code> Table)</h3>
-<p>Because your animation relies on specific objects (VFX, Parts, UIs), <code>AbilityCreate</code> needs a table linking the Moon Animator tracks to the real instances in your game. We built an automated tool to generate this table for you.</p>
-<p>Run this code in the <strong>Command Bar</strong> or a temporary test script:</p>
+The library includes two main ModuleScripts:
+
+1. **`FGController`** - The core engine that calculates absolute time (`os.clock()`), syncs Tweens, parses Custom Commands, and runs the animations.
+2. **`AbilityCreate`** - A user-friendly wrapper that parses your Moon Animator JSON data, sets up the UIs/Cameras automatically, and plays your abilities using the controller.
+
+> **Note:** You usually do not need to interact with `FGController` directly. `AbilityCreate` handles all the heavy lifting and is the primary module you should use in your scripts.
+
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Adding your animation from Moon Animator
+Create a folder inside `ReplicatedStorage` named `Animations`.
+
+When you save your animation in Moon Animator, the save file will appear in `ServerStorage -> MoonAnimator2Saves`. **Copy and paste** this save file into the `Animations` folder you just created.
+
+### 2. Generating the Setup Template
+Because your animation relies on specific objects (VFX, Parts, UIs), `AbilityCreate` needs a table linking the Moon Animator tracks to the real instances in your game. We built an automated tool to generate this table for you!
+
+Run this code in the **Command Bar** (Bottom of Roblox Studio):
 
 ```luau
 local RS = game:GetService("ReplicatedStorage")
@@ -95,15 +91,15 @@ local ModelName = "Character" -- The variable name of the character/model in you
 -- This will print a ready-to-use template in your Output (F9)
 AbilityCreate.PrintSetupTemplate(AnimationsFolder, ModelName, true) 
 ```
-<p>Check your Output window, copy the generated code, and paste it into your actual LocalScript.</p>
 
-<h3>3. Playing the Animation</h3>
-<p>Once you have your <code>Objs</code> table set up, playing the animation requires just one line of code in your LocalScript:</p>
+Check your Output window, copy the generated code, and paste it into your actual LocalScript.
+
+### 3. Playing the Animation
+Once you have your `Objs` table set up, playing the animation requires just one line of code:
 
 ```luau
 local RS = game:GetService("ReplicatedStorage")
 local AbilityCreate = require(RS.Modules:WaitForChild("AbilityCreate"))
-
 local AnimationsFolder = RS.Animations:WaitForChild("YourAnimationSaveName")
 
 -- Paste the generated table here:
@@ -112,116 +108,56 @@ local Objs = {
 }
 
 -- Play the ability!
-local myAbility = AbilityCreate.Create(AnimationsFolder, Objs)
+local myAbility = AbilityCreate.Create(AnimationsFolder, Objs, 60, Character.PrimaryPart.CFrame)
 
--- If you ever need to stop it manually:
+-- If you ever need to stop it manually mid-cast:
 -- myAbility:Stop()
 ```
 
-<hr />
+---
 
-<h2>API Reference</h2>
+## 🛠️ Custom Commands System (New!)
 
-<h3><code>AbilityCreate</code> (Main Module)</h3>
-<p>This is the primary module you will use to trigger animations and handle VFX/UI logic.</p>
+The V1.8+ Engine introduces a dynamic command registry. By default, the engine already recognizes commands like `shared.vfx.emit(Object)` and `print("text")` placed in Moon Animator's Event tracks.
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Method</th>
-      <th>Parameters</th>
-      <th>Returns</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong><code>.Create()</code></strong></td>
-      <td><code>AnimationsFolder: StringValue</code><br><code>Objs: {Instance}</code><br><code>FPS: number?</code><br><code>RelativeA: CFrame?</code><br><code>CameraTarget: BasePart?</code><br><code>CameraOrigin: (CFrame|Vector3)?</code></td>
-      <td><code>self</code></td>
-      <td>Initializes and immediately plays the animation sequence. Binds UIs, VFXs, and Camera automatically. Default FPS is <code>60</code>.</td>
-    </tr>
-    <tr>
-      <td><strong><code>:Stop()</code></strong></td>
-      <td>None</td>
-      <td><code>self</code></td>
-      <td>Instantly cancels all running tweens, stops time loops, clears memory, unbinds the custom Camera, and hides UI elements.</td>
-    </tr>
-    <tr>
-      <td><strong><code>.PrintSetupTemplate()</code></strong></td>
-      <td><code>AnimationsFolder: StringValue</code><br><code>ModelName: string</code><br><code>wait: boolean?</code></td>
-      <td><code>nil</code></td>
-      <td>Prints a formatted Lua table to the Output window. Set <code>wait</code> to <code>true</code> to use <code>:WaitForChild()</code>, or <code>false</code> for <code>:FindFirstChild()</code>.</td>
-    </tr>
-    <tr>
-      <td><strong><code>.getObjsOrder()</code></strong></td>
-      <td><code>AnimationsFolder: StringValue</code></td>
-      <td><code>{string}</code></td>
-      <td>Returns a sequentially ordered table of string names representing the exact object order required by the animation file.</td>
-    </tr>
-    <tr>
-      <td><strong><code>.PlayCharAnimation()</code></strong></td>
-      <td><code>Animation: Animation</code><br><code>Char: Model</code></td>
-      <td><code>AnimationTrack</code></td>
-      <td>Returns an animation track to play your player animation more easily. Just call <code>:Play()</code> on the returned track.</td>
-    </tr>
-  </tbody>
-</table>
+To add your own custom logic (like playing sounds or shaking the screen):
+1. Open the `FGController` module.
+2. Locate the `Commands` table.
+3. Add your custom function. The engine's Regex will automatically detect it and parse the arguments for you!
+
+---
+
+## 📚 API Reference
+
+### `AbilityCreate` (Main Wrapper)
+
+| Method | Parameters | Returns | Description |
+| :--- | :--- | :--- | :--- |
+| **`.Create()`** | `Folder: StringValue`<br>`Objs: {Instance}`<br>`FPS: number?`<br>`RelativeA: CFrame?`<br>`CameraTarget: BasePart?`<br>`CameraOrigin: CFrame/Vector3?` | `self` | Initializes and immediately plays the sequence. Binds UIs, VFXs, and Camera safely. Default FPS is `60`. |
+| **`:Stop()`** | None | `self` | Instantly cancels all running tweens, stops loops, clears memory, and selectively hides UI/Camera *only* if they were used by this ability. |
+| **`.PrintSetupTemplate()`**| `Folder: StringValue`<br>`ModelName: string`<br>`wait: boolean?` | `nil` | Prints a formatted Lua table to the Output window. Set `wait` to `true` to use `:WaitForChild()`. |
+| **`.getObjsOrder()`** | `Folder: StringValue` | `{string}` | Returns a sequentially ordered table of string names representing the exact object order required. |
+| **`.PlayCharAnimation()`** | `Anim: Animation`<br>`Char: Model` | `AnimationTrack` | Helper function to load and return a player animation safely. Call `:Play()` on the returned track. |
 
 <br />
 
-<h3><code>FGController</code> (Internal Engine)</h3>
-<p>While <code>AbilityCreate</code> automates this, here is the API for the underlying engine in case you need to build custom, low-level implementations.</p>
+### `FGController` (Internal Engine)
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Method</th>
-      <th>Parameters</th>
-      <th>Returns</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong><code>.new()</code></strong></td>
-      <td><code>object: Instance</code><br><code>fps: number?</code><br><code>cameraOrigin: (CFrame|Vector3)?</code><br><code>cameraTarget: BasePart?</code><br><code>relativeA: CFrame?</code></td>
-      <td><code>self</code></td>
-      <td>Creates a new controller instance tied to a specific object. Handles specific camera logic if the object is <code>Workspace.CurrentCamera</code>.</td>
-    </tr>
-    <tr>
-      <td><strong><code>:SetAnimation()</code></strong></td>
-      <td><code>AnimationFolder: StringValue</code><br><code>Config: Config?</code></td>
-      <td><code>self</code></td>
-      <td>Binds the animation folder to the object. Accepts an optional config table. <code>LocalPos</code> defaults to true (changes world position to local based on the part's actual CFrame). <code>LocalCamera</code> dictates if camera tracks are relative.</td>
-    </tr>
-    <tr>
-      <td><strong><code>:Play()</code></strong></td>
-      <td><code>Loop: boolean</code><br><code>Objs: {Instance}?</code></td>
-      <td><code>self</code></td>
-      <td>Starts the animation in a parallel thread (<code>task.spawn</code>), utilizing strict <code>os.clock()</code> calculations for perfect frame syncing and event tracking.</td>
-    </tr>
-    <tr>
-      <td><strong><code>:CallBack()</code></strong></td>
-      <td><code>CallBack: () -&gt; ()</code></td>
-      <td><code>self</code></td>
-      <td>Connects a function to fire exactly when the animation finishes naturally or is stopped.</td>
-    </tr>
-    <tr>
-      <td><strong><code>:Stop()</code></strong></td>
-      <td>None</td>
-      <td><code>self</code></td>
-      <td>Cancels all active <code>TweenService</code> tracks for this specific object and halts the loop.</td>
-    </tr>
-  </tbody>
-</table>
+| Method | Parameters | Returns | Description |
+| :--- | :--- | :--- | :--- |
+| **`.new()`** | `object: Instance`<br>`fps: number?`<br>`cameraOrigin: CFrame?`<br>`cameraTarget: BasePart?`<br>`relativeA: CFrame?` | `self` | Creates a new controller instance tied to a specific object. |
+| **`:SetAnimation()`** | `Folder: StringValue`<br>`Config: Config?` | `self` | Binds the animation folder to the object. Accepts an optional config table to toggle specific properties (`LocalPos`, `LocalCamera`, etc). |
+| **`:Play()`** | `Loop: boolean`<br>`Objs: {Instance}?` | `self` | Starts the animation in a parallel thread (`task.spawn`), utilizing strict `os.clock()` calculations to prevent frame drift. |
+| **`:CallBack()`** | `CallBack: () -> ()` | `self` | Connects a function to fire exactly when the animation finishes naturally or is manually stopped. |
+| **`:Stop()`** | None | `self` | Cancels all active `TweenService` tracks for this specific object and halts the time loop. |
 
-<hr />
+---
 
-<h2>Price &amp; License</h2>
-<p><strong>License (VFX-DL) Version 1.0</strong></p>
-<p>To buy the license to use this module please send me a message on Discord to purchase it.</p>
-<p>You needed to have a GitHub account to get permission to download. </p>
+## 📄 License & Terms
 
-<h2>Updates</h2>
-<p>This module is updated frequently. If you notice an error, feel free to send me a message or create an issue/comment on the repository! Because these modules are recent, there might be occasional bugs, but I am actively fixing them.</p>
+**VFX Forge Developer License (VFX-DL) Version 1.0**
+
+To buy the license to use this module, please send a message on Discord to purchase it.
+*You must have a GitHub account to get permission to access and download the repository.*
+
+**Updates:** This module is updated frequently. If you notice an error, feel free to send a message or create an issue/comment on the repository. The codebase is actively maintained and bugs are fixed promptly.
