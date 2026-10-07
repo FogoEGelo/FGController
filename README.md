@@ -108,7 +108,7 @@ local Objs = {
 }
 
 -- Play the ability!
-local myAbility = AbilityCreate.Create(AnimationsFolder, Objs, 60, Character.PrimaryPart.CFrame)
+local myAbility = AbilityCreate.Create(AnimationsFolder, Objs)
 
 -- If you ever need to stop it manually mid-cast:
 -- myAbility:Stop()
